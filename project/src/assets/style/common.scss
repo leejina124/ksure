@@ -1,0 +1,69 @@
+@charset "utf-8"; 
+
+@font-face {
+	font-family:'Pretendard'; 
+	font-style:normal; 
+	font-weight:300; 
+	src:url("@/assets/fonts/Pretendard-Light.woff2") format('woff2'),
+		url("@/assets/fonts/Pretendard-Light.woff") format('woff'); 
+}
+@font-face {
+	font-family:'Pretendard'; 
+	font-style:normal; 
+	font-weight:400; 
+	src:url("@/assets/fonts/Pretendard-Regular.woff2") format('woff2'),
+		url("@/assets/fonts/Pretendard-Regular.woff") format('woff'); 
+}
+@font-face {
+	font-family:'Pretendard'; 
+	font-style:normal; 
+	font-weight:500; 
+	src:url("@/assets/fonts/Pretendard-Medium.woff2") format('woff2'),
+		url("@/assets/fonts/Pretendard-Medium.woff") format('woff'); 
+}
+@font-face {
+	font-family:'Pretendard'; 
+	font-style:normal; 
+	font-weight:700; 
+	src:url("@/assets/fonts/Pretendard-Bold.woff2") format('woff2'),
+		url("@/assets/fonts/Pretendard-Bold.woff") format('woff'); 
+}
+
+/* Reset */
+* {margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:rgba(0,0,0,0) !important; -webkit-text-size-adjust:none; font-family:'Pretendard-Regular', Dotum, Arial, sans-serif;}
+html, body {width:100%;  margin:0 auto; padding:20px}
+body {overflow-y:auto; margin:0; padding:0; height:100%; font-size:15px; line-height:1.5; color:#1D1D1D; font-family:'Pretendard-Regular', Dotum, Arial, sans-serif; word-break:keep-all;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, address {margin:0; padding:0}
+pre {margin:0; padding:0; word-wrap:break-word; white-space:pre-line}
+table {border:0; border-collapse:collapse; border-spacing:0; width:100%}
+fieldset, img {border:0;vertical-align:top}
+ul, li {list-style:none}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal; line-height:1em}
+textarea {font-family:'Pretendard-Regular', Dotum, Arial, sans-serif;}
+a {text-decoration:none; cursor:pointer}
+a:visited {color:#000;}
+body {position:relative}
+em {font-style:normal}
+a, button {cursor:pointer}
+button {border-radius:4px; font-size: 15px;}
+legend, hr, caption {position:absolute; top:-9990px; left:-9999px; width:1px; height:1px; opacity:0}
+#wrap {overflow:hidden;}
+
+input {font-family:'Pretendard-Regular', Dotum, Arial, sans-serif}
+select {background:url("@/assets/images/ico-select.png") no-repeat center right 8px; height:36px; color:#666; border:1px solid #b3b3b3; border-radius:2px; padding:0 8px}
+input[type=number],
+input[type=tel],
+input[type=text],
+input[type=password],
+select,
+textarea {-webkit-appearance:none; width:100%;}
+
+::-webkit-input-placeholder {color:rgba(0, 0, 0, 0.60)}
+::-moz-placeholder {color:rgba(0, 0, 0, 0.60)}
+:-ms-input-placeholder {color:rgba(0, 0, 0, 0.60)}
+:-moz-placeholder {color:rgba(0, 0, 0, 0.60)}
+
+input:read-only {background:#e8e8e8}
+input:-moz-read-only {background:#e8e8e8}
+
+button:disabled, select:disabled, input:disabled, input:disabled + label {opacity:0.3 !important}

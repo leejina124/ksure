@@ -1,0 +1,46 @@
+/***** 공통 *****/
+/*** 공통 ***/
+/* 공통 */
+
+/* banner */
+.banner {
+    position:fixed; top:0; left:0; width:100%; background:#EDF1F5;
+
+    &:before{
+        position:absolute; content:""; left:0; top:33px; width:100%; height:1px; background:#CDD7E4; 
+    }
+
+    .inner {
+        margin:0 auto; padding:0 20px; max-width:1240px;
+    
+        .tit {
+            display:flex; align-items:center; 
+    
+            .ico {
+               line-height:32px; padding-left:26px; padding-right:16px; background:url("@/assets/images/ico-flag.png") no-repeat center left / 24px auto;
+            }
+    
+            button {
+                padding-right:18px; background:url("@/assets/images/ico-select-s.png") no-repeat center right / 16px auto; border:none;color:#003675;
+            }
+        }
+        .con {
+            padding:24px 0 24px 28px; overflow:hidden; background:#EDF1F5 url("@/assets/images/ico-jip.png") no-repeat top 25px left / 20px auto; transition: all 0.3s ease;
+
+            > p {
+                font-weight:700; font-size:17px;
+            }
+
+            > div {
+                margin-top:10px; color:#555;
+
+                .ico.link {
+                    display:inline-block; margin-top:15px; padding-right:18px; background:url("@/assets/images/ico-link.png") no-repeat center right / 16px auto; color:#1D1D1D;
+                }
+            }
+
+            &.open {display:none}
+        }
+    }
+}
+
