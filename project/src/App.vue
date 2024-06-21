@@ -18,4 +18,5 @@ export default {
   @import './assets/style/common.scss';
   @import './assets/style/contents.scss';
   @import './assets/style/layout.scss';
+  @import './assets/style/main.scss';
 </style>
