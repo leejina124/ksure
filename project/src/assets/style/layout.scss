@@ -4,7 +4,7 @@
 
 /* banner */
 .banner {
-    position:fixed; top:0; left:0; width:100%; background:#EDF1F5;
+    position:fixed; top:0; left:0; z-index:1; width:100%; background:#EDF1F5;
 
     &:before{
         position:absolute; content:""; left:0; top:33px; width:100%; height:1px; background:#CDD7E4; 

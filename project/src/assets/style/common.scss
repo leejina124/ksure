@@ -31,7 +31,7 @@
 
 /* Reset */
 * {margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:rgba(0,0,0,0) !important; -webkit-text-size-adjust:none; font-family:'Pretendard-Regular', Dotum, Arial, sans-serif;}
-html, body {width:100%;  margin:0 auto; padding:20px}
+html, body {width:100%;  margin:0 auto}
 body {overflow-y:auto; margin:0; padding:0; height:100%; font-size:15px; line-height:1.5; color:#1D1D1D; font-family:'Pretendard-Regular', Dotum, Arial, sans-serif; word-break:keep-all;}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, address {margin:0; padding:0}
 pre {margin:0; padding:0; word-wrap:break-word; white-space:pre-line}
@@ -48,6 +48,7 @@ a, button {cursor:pointer}
 button {border-radius:4px; font-size: 15px;}
 legend, hr, caption {position:absolute; top:-9990px; left:-9999px; width:1px; height:1px; opacity:0}
 #wrap {overflow:hidden;}
+.hide {position:absolute;overflow:hidden;width:1px;height:1px;clip:rect(0 0 0 0);margin:-1px;}
 
 input {font-family:'Pretendard-Regular', Dotum, Arial, sans-serif}
 select {background:url("@/assets/images/ico-select.png") no-repeat center right 8px; height:36px; color:#666; border:1px solid #b3b3b3; border-radius:2px; padding:0 8px}
